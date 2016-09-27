@@ -15,9 +15,9 @@ PRE-REQUISITES:
 2. A linux environment with working ssh in it.
 
 3. Key-pair and Security group
-a. Connecting to ec2 instances through ssh requires a key pair which can be created by Amazon aws CLI given below. Make sure to run 'chmod' command for key pair.
+* Connecting to ec2 instances through ssh requires a key pair which can be created by Amazon aws CLI given below. Make sure to run 'chmod' command for key pair.
 		aws ec2 create-key-pair --key-name EC2_KP chmod 400 EC2_KP
-		b. Create a security group which allows SSH to all the instances and set the rules in that SG that allows all incoming traffic for specified port. Use below Amazon aws CLI to create a security group:
+* Create a security group which allows SSH to all the instances and set the rules in that SG that allows all incoming traffic for specified port. Use below Amazon aws CLI to create a security group:
 		aws ec2 create-security-group --group-name my-sg --description "My security group"
 	
 4. Create an IAM role to allow access to S3 bucket from your ec2 instances using the AWS Console by follwoing the below steps.

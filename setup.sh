@@ -1,4 +1,4 @@
-#Author: Vishal Mehta
+#Author: Harshali Singh
 #!/bin/bash
 #Set up and install required packages on instances and configure aws
 

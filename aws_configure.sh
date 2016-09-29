@@ -1,8 +1,13 @@
-#Author: 
+#Author: Harshali Singh
 #!/bin/bash
 # Configure aws on instances
 
-echo "AKIAIC5D7YDJ4R6HNZRQ
-AaWiURmWvEgNDsAw6EwFGDzcezAhESbXn9oCu7r3
-us-west-2
+AWS_ACCESS_KEY=""
+AWS_SECRET_KEY=""
+REGION=""
+
+#automate aws configure
+echo "${AWS_ACCESS_KEY}
+${AWS_SECRET_KEY}
+${REGION}
 json" | aws configure

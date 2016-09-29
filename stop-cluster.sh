@@ -1,4 +1,4 @@
-#Author: Vishal Mehta	
+#Author: Harshali Singh	
 #!/bin/bash
 # Stop N instances
 
